@@ -9,6 +9,8 @@ elif type == "-":
     print (first - second)
 elif type == "*":
     print (first * second)
+elif second == 0 and type == "/":
+    print ("Делить на ноль нельзя!")
 elif type == "/":
     print (first / second)
 elif type == "**":
